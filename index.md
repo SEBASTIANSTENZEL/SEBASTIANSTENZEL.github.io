@@ -22,59 +22,34 @@ The specific information can be found on the the [official website](https://www.
 
 All we need are _**Raspberry Pi**_, _**TF card (MicroSD)**_, _**heat sink**_, _**fan**_, and _**TypeC charging cable and plug**_. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with _**Micro HDMI cable**_ when you first configure it. 
 
-1. **The first step** is to write the system into TF card.
+### **The first step** is to write the system into TF card.
  
-Actually an official software for installing the system is provided, its name is [Pi Imager](https://www.raspberrypi.com/software/). After installing Pi Imager on PC, you can insert the TF card into PC and choose the operating system in it (Raspberry Pi OS(32 - bit) is recommanded). Although the software will format TF card before writting, I recommend formatting the TF card with another software first. I will provide the software later. After you finish it, just press "WRITE" button and wait for the end. Finally insert the TF card into Raspberry Pi.
+Actually an official software for installing the system is provided, its name is [Pi Imager](https://www.raspberrypi.com/software/). After installing Pi Imager on PC, you can insert the TF card into PC and choose the operating system in it (Raspberry Pi OS (32 - bit) is recommanded). Although the software will format TF card before writting, I recommend formatting the TF card with another software first. I will provide the software later. After you finish it, just press "WRITE" button and wait for the end. Finally insert the TF card into Raspberry Pi.
 
-2. **The second step** is to power up Raspberry Pi.
+### **The second step** is to power up Raspberry Pi.
 
-- With display.
-- 
-- Without display.
+1. With display.
 
-3. **The third step** is to open SSH and VNC.
+2. Without display.
 
+### **The third step** is to open SSH and VNC.
 
-4. **The forth step** is to set static IP.
+1. SSH.
 
+2. VHC.
 
-5. **The fifth step** is to set language.
-
-## How to run Raspberry Pi ?
+### **The forth step** is to set static IP.
 
 
 
+### **The fifth step** is to set language.
 
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## NAS
 
-```markdown
-Syntax highlighted code block
+## Web Server
 
-# Header 1
-## Header 2
-### Header 3
-#### 123123
+## Smart Home
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SEBASTIANSTENZEL/SEBASTIANSTENZEL.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Cluster

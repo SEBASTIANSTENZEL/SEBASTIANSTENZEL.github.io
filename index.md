@@ -6,7 +6,7 @@ This blog is mainly about the introduction, configuration and function about Ras
 
 ## About Project
 
-My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so actually it is a multifunctional server. There are 5 functions until now (NAS, Streaming Media, Web server, Smart Home and Cluster). In the following text I will introduce them in detail.
+My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so actually it is a multifunctional server. There are 5 functions until now (NAS, Streaming Media, Web server, Smart Home and Cluster). In the following text I will introduce them in detail. Other models of Raspberry Pi have the same principles, but need to pay attention to differences of hardware, such as interface.
 
 ## What is Raspberry Pi ?
 
@@ -16,7 +16,7 @@ Raspberry Pi OS is an officially launched operating system, suitable for all mod
 
 ## How to run Raspberry Pi ?
 
-All we need are a **Raspberry Pi**, a **TF card**, heat sink and fan, and a TypeC charging cable and plug.
+All we need are **Raspberry Pi**, **TF card**, **heat sink**, **fan**, and **TypeC charging cable and plug**. Without a monitor 
 
 ### What is Raspberry Pi ?
 

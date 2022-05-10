@@ -45,11 +45,12 @@ Actually an official software for installing the system is provided, its name is
 ### **The fifth step** is to set language.
 
 
+## How to realize these fucntion ?
 
-## NAS
+### NAS
 
-## Web Server
+### Web Server
 
-## Smart Home
+### Smart Home
 
-## Cluster
+### Cluster

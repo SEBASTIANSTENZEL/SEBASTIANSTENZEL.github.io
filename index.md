@@ -10,7 +10,10 @@ My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so
 
 ## What is Raspberry Pi ?
 
-Raspberry Pi is a tiny single-board computer. The purpose is to promote basic computer science education in schools with low-cost hardware and free software. At present, the performance of Raspberry Pi can only support light (daliy) use and learning. If you need to use it for high-intensity work, such as edge computing, please use a more advanced server.
+Raspberry Pi is a tiny single-board computer. The purpose is to promote basic computer science education in schools with low-cost hardware and free software. At present, the performance of Raspberry Pi can only support light (daliy) use and learning. If you need to use it for high-intensity work, such as edge computing, please use a higher-performance server.
+Raspberry Pi uses an ARM-based processor. TF card is used as system storage.Raspberry Pi is equipped with USB interface and HDMI video output (supports sound output), built-in Ethernet/WLAN/Bluetooth network link, and can use a variety of operating systems. Certainly there are many models of Raspberry Pi, but the most commonly used is the B type. The specific information can be found on the the [official website](https://www.raspberrypi.org/).
+Raspberry Pi OS is an officially launched operating system, suitable for all models of Raspberry Pi. They also provides third-party systems such as Ubuntu MATE, Ubuntu Core, Ubuntu Server, and OSMC for the public to download.
+
 ## 
 
 ## What is Raspberry Pi ?
@@ -40,6 +43,7 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
+#### 123123
 
 - Bulleted
 - List

@@ -54,7 +54,7 @@ Actually an official software for installing the system is provided, its name is
 Apache is No.1 web server software used in the world. It can run on almost all widely used computer platforms and is the most popular web server-side software due to its cross-platform and security being widely used.
 
 1. Install Apache on the Raspberry Pi
-'apt-get install apache2'
+`apt-get install apache2`
 
 
 

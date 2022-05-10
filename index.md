@@ -22,35 +22,35 @@ The specific information can be found on the the [official website](https://www.
 
 All we need are _**Raspberry Pi**_, _**TF card (MicroSD)**_, _**heat sink**_, _**fan**_, and _**TypeC charging cable and plug**_. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with _**Micro HDMI cable**_ when you first configure it. 
 
-### **The first step** is to write the system into TF card.
+### - **The first step** is to write the system into TF card.
  
 Actually an official software for installing the system is provided, its name is [Pi Imager](https://www.raspberrypi.com/software/). After installing Pi Imager on PC, you can insert the TF card into PC and choose the operating system in it (Raspberry Pi OS (32 - bit) is recommanded). Although the software will format TF card before writting, I recommend formatting the TF card with another software first. I will provide the software later. After you finish it, just press "WRITE" button and wait for the end. Finally insert the TF card into Raspberry Pi.
 
-### **The second step** is to power up Raspberry Pi.
+### - **The second step** is to power up Raspberry Pi.
 
 1. With display.
 
 2. Without display.
 
-### **The third step** is to open SSH and VNC.
+### - **The third step** is to open SSH and VNC.
 
 1. SSH.
 
 2. VHC.
 
-### **The forth step** is to set static IP.
+### - **The forth step** is to set static IP.
 
 
 
-### **The fifth step** is to set language.
+### - **The fifth step** is to set language.
 
 
 ## How to realize these fucntion ?
 
-### NAS
+### - NAS
 
-### Web Server
+### - Web Server
 
-### Smart Home
+### - Smart Home
 
-### Cluster
+### - Cluster

@@ -6,15 +6,19 @@ This blog is mainly about the introduction, configuration and function about Ras
 
 ## About Project
 
-My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so actually it is a server. There are 5 functions until now (NAS, Streaming Media, Web server, Smart Home and Cluster). In the following text I will introduce them in detail.
+My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so actually it is a multifunctional server. There are 5 functions until now (NAS, Streaming Media, Web server, Smart Home and Cluster). In the following text I will introduce them in detail.
 
+## What is Raspberry Pi ?
 
+aaa
 
+## What is Raspberry Pi ?
 
+## What is Raspberry Pi ?
 
+## What is Raspberry Pi ?
 
-
-
+## What is Raspberry Pi ?
 
 
 

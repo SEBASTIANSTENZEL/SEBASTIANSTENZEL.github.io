@@ -38,13 +38,21 @@ Actually an official software for installing the system is provided, its name is
 
 2. VHC
 
-### - _**The forth step**_ is to set static IP.
+### - _**The forth step**_ is to install teamviewer.
 
-Modify the /etc/dhcpcd.conf file with this command.
+VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
+
+
+
+
+
+### - _**The fifth step**_ is to set static IP.
+
+1. Modify the /etc/dhcpcd.conf file with this command.
 
 `sudo nano /etc/dhcpcd.conf`
 
-And then put these codes into the end of the file.
+2. And then put these codes into the end of the file.
 
 ```
 interface eth0
@@ -63,12 +71,17 @@ static domain_name_servers=192.168.7.1
 It should be known that eth0 is the wired configuration, wlan0 is the wireless configuration, ip_address (/24 is necessary) is the static IP that you want, routers are gateways and static domain_name_servers is DNS.
 
 
-### - _**The fifth step**_ is to set language.
+### - _**The sixth step**_ is to set language.
 
 
 ## How to realize these function ?
 
 ### - NAS
+
+
+
+
+
 
 ### - Web Server
 
@@ -88,7 +101,12 @@ When prompted "Do you want to continue[Y/n]?", enter y,  and wait for the instal
 
 Enter the IP address of Raspberry Pi in the address bar of the browser, s Webpage will be shown. This is the home page of the default Apache Web Server. This html file can be modified, it is /var/www/index.html. This kind of file can be editted by Notepad++ (on PC) or Geany (on Raspberry Pi).
 
-3. 
+3. Intranet penetration
+
+
+
+
+
 
 ### - Smart Home
 

@@ -28,18 +28,39 @@ Actually an official software for installing the system is provided, its name is
 
 ### - _**The second step**_ is to power up Raspberry Pi.
 
-1. With display.
+1. With display
 
-2. Without display.
+2. Without display
 
 ### - _**The third step**_ is to open SSH and VNC.
 
-1. SSH.
+1. SSH
 
-2. VHC.
+2. VHC
 
 ### - _**The forth step**_ is to set static IP.
 
+Modify the /etc/dhcpcd.conf file with this command.
+
+`sudo nano /etc/dhcpcd.conf`
+
+And then put these codes into the end of the file.
+
+```
+interface eth0
+ 
+static ip_address=192.168.7.10/24
+static routers=192.168.7.1
+static domain_name_servers=192.168.7.1
+ 
+interface wlan0
+ 
+static ip_address=192.168.7.200/24
+static routers=192.168.7.1
+static domain_name_servers=192.168.7.1
+```
+
+It should be known that eth0 is the wired configuration, wlan0 is the wireless configuration, ip_address (/24 is necessary) is the static IP that you want, routers are gateways and static domain_name_servers is DNS.
 
 
 ### - _**The fifth step**_ is to set language.
@@ -60,13 +81,14 @@ Apache is No.1 web server software used in the world. It can run on almost all w
 When prompted "Do you want to continue[Y/n]?", enter y,  and wait for the installation to complete. If there is an error, please try to update the command with the following 2 commands.
 
 `sudo apt-get update`
+
 `sudo apt-get upgrade`
 
 2. Test
 
-Enter the IP address of Raspberry Pi in the address bar of the browser, you will see the Webpage. This is the home page of the default Apache Web Server. You can modify this html file. This file is /var/www/index.html. This kind of file can be editted by Notepad (on PC) or Geany (on Raspberry Pi).
+Enter the IP address of Raspberry Pi in the address bar of the browser, s Webpage will be shown. This is the home page of the default Apache Web Server. This html file can be modified, it is /var/www/index.html. This kind of file can be editted by Notepad++ (on PC) or Geany (on Raspberry Pi).
 
-
+3. 
 
 ### - Smart Home
 

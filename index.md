@@ -16,7 +16,7 @@ Raspberry Pi OS is an officially launched operating system, suitable for all mod
 
 ## How to run Raspberry Pi ?
 
-All we need are **Raspberry Pi**, **TF card**, **heat sink**, **fan**, and **TypeC charging cable and plug**. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with **Micro HDMI cable** when you first configure it. 
+All we need are _**Raspberry Pi**_, **TF card**, **heat sink**, **fan**, and **TypeC charging cable and plug**. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with **Micro HDMI cable** when you first configure it. 
 
 ### What is Raspberry Pi ?
 

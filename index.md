@@ -14,7 +14,9 @@ Raspberry Pi is a tiny single-board computer. The purpose is to promote basic co
 Raspberry Pi uses an ARM-based processor. TF card is used as system storage.Raspberry Pi is equipped with USB interface and HDMI video output (supports sound output), built-in Ethernet/WLAN/Bluetooth network link, and can use a variety of operating systems. Certainly there are many models of Raspberry Pi, but the most commonly used is the B type. The specific information can be found on the the [official website](https://www.raspberrypi.org/).
 Raspberry Pi OS is an officially launched operating system, suitable for all models of Raspberry Pi. They also provides third-party systems such as Ubuntu MATE, Ubuntu Core, Ubuntu Server, and OSMC for the public to download.
 
-## 
+## How to run Raspberry Pi ?
+
+All we need are a **Raspberry Pi**, a **TF card**, heat sink and fan, and a TypeC charging cable and plug.
 
 ### What is Raspberry Pi ?
 

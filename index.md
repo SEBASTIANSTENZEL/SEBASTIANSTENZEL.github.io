@@ -10,9 +10,8 @@ My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so
 
 ## What is Raspberry Pi ?
 
-aaa
-
-## What is Raspberry Pi ?
+Raspberry Pi is a tiny single-board computer. The purpose is to promote basic computer science education in schools with low-cost hardware and free software. At present, the performance of Raspberry Pi can only support light (daliy) use and learning. If you need to use it for high-intensity work, such as edge computing, please use a more advanced server.
+## 
 
 ## What is Raspberry Pi ?
 

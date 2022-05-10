@@ -29,9 +29,18 @@ Actually an official software for installing the system is provided, its name is
 2. **The second step** is to power up Raspberry Pi.
 
 - With display.
+- 
 - Without display.
 
+3. **The third step** is to open SSH and VNC.
 
+
+4. **The forth step** is to set static IP.
+
+
+5. **The fifth step** is to set language.
+
+## How to run Raspberry Pi ?
 
 
 

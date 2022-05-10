@@ -16,22 +16,16 @@ Raspberry Pi OS is an officially launched operating system, suitable for all mod
 
 ## 
 
-## What is Raspberry Pi ?
+### What is Raspberry Pi ?
 
-## What is Raspberry Pi ?
+#### What is Raspberry Pi ?
 
-## What is Raspberry Pi ?
-
-
+###### What is Raspberry Pi ?
 
 
 
 
 
-
- can use the [editor on GitHub](https://github.com/SEBASTIANSTENZEL/SEBASTIANSTENZEL.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 

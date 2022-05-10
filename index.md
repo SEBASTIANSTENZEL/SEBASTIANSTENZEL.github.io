@@ -57,6 +57,14 @@ Apache is No.1 web server software used in the world. It can run on almost all w
 
 `apt-get install apache2`
 
+When prompted "Do you want to continue[Y/n]?", enter y,  and wait for the installation to complete. If there is an error, please try to update the command with the following 2 commands.
+
+`sudo apt-get update`
+`sudo apt-get upgrade`
+
+2. Test
+
+Enter the IP address of Raspberry Pi in the address bar of the browser, you will see the Webpage. This is the home page of the default Apache Web Server. You can modify this html file. This file is /var/www/index.html. This kind of file can be editted by Notepad (on PC) or Geany (on Raspberry Pi).
 
 
 

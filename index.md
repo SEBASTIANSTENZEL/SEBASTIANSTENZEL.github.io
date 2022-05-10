@@ -22,7 +22,7 @@ The specific information can be found on the the [official website](https://www.
 
 All we need are _**Raspberry Pi**_, _**TF card**_, _**heat sink**_, _**fan**_, and _**TypeC charging cable and plug**_. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with _**Micro HDMI cable**_ when you first configure it. 
 
-1. The first step is to write the system into TF card. 
+1. The first step is to write the system into TF card. Actually an official software for installing the system is provided, its name is [Pi Imager](https://www.raspberrypi.com/software/).
 
 #### What is Raspberry Pi ?
 

@@ -29,12 +29,40 @@ Actually an official software for installing the system is provided, its name is
 
 I. With display
 
+
+
+
+
 II. Without display
 
-## - _**The third step**_ is to set language.
 
 
 
+## - _**The third step**_ is to set Chinese.
+
+After the system becomes Chinese, there will be garbled characters. But it is still helpful for beginners.
+
+I. Install Chinese character library. When prompted "Do you want to continue[Y/n]?", enter y.
+
+`sudo apt-get install ttf-wqy-zenhei`
+
+II. Install sunpinyin and google pinyin.
+
+`sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin`
+
+III. Set to support Chinese. Localisation Options -> Change Locale. Press Space ro choose _zh_CN GB2312_, _zh_CN.GB18030 GB18030_, _zh_CN.GBK GBK_, _zh_CN.UTF-8 UTF-8_ and press Enter to confirm.
+
+`sudo raspi-config`
+
+IV. Choose _zh_CN.UTF-8_ and press Enter to confirm.
+
+V. Resart Raspberry Pi.
+
+`sudo reboot`
+
+VI. If it still doesn't show Chinese, open Raspberry Pi Configuration to change Character Set in Locale in Localisation to _GB18030_ and restart.
+
+VII. If you can not input chinese characters. You can add sunpinyin and google pinyin in Fcitx Configuration.
 
 ## - _**The forth step**_ is to set static IP.
 
@@ -163,4 +191,14 @@ III. Intranet penetration
 
 ## **- Smart Home**
 
+
+
+
+
+
 ## **- Cluster**
+
+
+
+
+

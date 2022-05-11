@@ -92,7 +92,7 @@ It should be known that eth0 is the wired configuration, wlan0 is the wireless c
 
 I. Enter the following command in the terminal to enter the configuration interface.
 
-` sudo raspi-config`
+`sudo raspi-config`
 
 II. Interfacing Options -> VNC -> Yes. The system may prompt you if you want to install the VNC service, enter y and press Enter. Then wait for the system to automatically download and install.
 

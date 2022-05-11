@@ -160,7 +160,7 @@ I. Enter the following command in the terminal to install.
 
 II. Enter the URL in the address bar of the browser to monitor.
 
-`http://IP address of Raspberry Pi:19999`
+`http://[RASPBERRYPIIPADDRESS]:19999`
 
 # **How to realize these function ?**
 
@@ -195,7 +195,45 @@ In this part, Homekit developed by Apple and Homebridge will be used to build a 
 
 Homebridge is a lightweight NodeJS server built to emulate the iOS HomeKit API. Using this software, you can integrate devices in your home with Homekit. You can also use Homebridge to connect various third-party apps that aren't supported by Homekit, such as Xiaomi.
 
+I. 
 
+`curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -`
+
+II. 
+
+`sudo apt install -y nodejs gcc g++ make python`
+
+III. 
+
+`node -v`
+
+IV. 
+
+`sudo npm install -g npm`
+
+V. 
+
+`sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x`
+
+VI. 
+
+`sudo hb-service install --user homebridge`
+
+VII. 
+
+`hostname -I`
+
+VIII. 
+
+`http://[RASPBERRYPIIPADDRESS]:8581`
+
+IX. 
+
+`sudo hb-service uninstall`
+
+X.
+
+`sudo npm uninstall -g homebridge homebridge-config-ui-x`
 
 
 

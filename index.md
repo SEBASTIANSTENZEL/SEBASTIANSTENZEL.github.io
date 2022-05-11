@@ -28,48 +28,48 @@ Actually an official software for installing the system is provided, its name is
 
 ### - _**The second step**_ is to power up Raspberry Pi.
 
-1. With display
+I. With display
 
-2. Without display
+II. Without display
 
 ### - _**The third step**_ is to open SSH and VNC.
 
-1. SSH
+I. SSH
 
-2. VHC
+II. VHC
 
 ### - _**The forth step**_ is to install teamviewer.
 
 VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
 
-1. First update to prevent errors.
+I. First update to prevent errors.
 
 `sudo apt-get update`
 
 `sudo apt-get upgrade`
 
-2. Download .deb file (a special one for Raspberry Pi).
+II. Download .deb file (a special one for Raspberry Pi).
 
 `wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb`
 
-3. Install with dpkg.
+III. Install with dpkg.
 
 `sudo dpkg -i teamviewer-host_armhf.deb`
 
-4. After running the above command, you will notice some errors about a particular package not being installed. Use this command to automatically detect missing packages and try to download the best version for the software.
+IV. After running the above command, you will notice some errors about a particular package not being installed. Use this command to automatically detect missing packages and try to download the best version for the software.
 
 `sudo apt --fix-broken install`
 
-5. Teamviewer should be ok. You can certainly change some settings if you want.
+V. Teamviewer should be ok. You can certainly change some settings if you want.
 
 
 ### - _**The fifth step**_ is to set static IP.
 
-1. Modify the /etc/dhcpcd.conf file with this command.
+I. Modify the /etc/dhcpcd.conf file with this command.
 
 `sudo nano /etc/dhcpcd.conf`
 
-2. And then put these codes into the end of the file.
+II. And then put these codes into the end of the file.
 
 ```
 interface eth0
@@ -87,7 +87,7 @@ static domain_name_servers=192.168.7.1
 
 It should be known that eth0 is the wired configuration, wlan0 is the wireless configuration, ip_address (/24 is necessary) is the static IP that you want, routers are gateways and static domain_name_servers is DNS.
 
-3. After the restarting, all things will be ok.
+III. After the restarting, all things will be ok.
 
 
 ### - _**The sixth step**_ is to set language.
@@ -106,7 +106,7 @@ It should be known that eth0 is the wired configuration, wlan0 is the wireless c
 
 Apache is No.1 web server software used in the world. It can run on almost all widely used computer platforms and is the most popular web server-side software due to its cross-platform and security being widely used.
 
-1. Install Apache on the Raspberry Pi
+I. Install Apache on the Raspberry Pi
 
 `apt-get install apache2`
 
@@ -116,11 +116,11 @@ When prompted "Do you want to continue[Y/n]?", enter y,  and wait for the instal
 
 `sudo apt-get upgrade`
 
-2. Test
+II. Test
 
 Enter the IP address of Raspberry Pi in the address bar of the browser, s Webpage will be shown. This is the home page of the default Apache Web Server. This html file can be modified, it is /var/www/index.html. This kind of file can be editted by Notepad++ (on PC) or Geany (on Raspberry Pi).
 
-3. Intranet penetration
+III. Intranet penetration
 
 
 

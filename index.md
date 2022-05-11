@@ -191,7 +191,9 @@ III. Intranet penetration
 
 ## **- Smart Home**
 
+In this part, Homekit developed by Apple and Homebridge will be used to build a smart home.
 
+Homebridge is a lightweight NodeJS server built to emulate the iOS HomeKit API. Using this software, you can integrate devices in your home with Homekit. You can also use Homebridge to connect various third-party apps that aren't supported by Homekit, such as Xiaomi.
 
 
 

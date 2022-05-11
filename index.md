@@ -33,6 +33,9 @@ II. Without display
 
 ## - _**The third step**_ is to set language.
 
+
+
+
 ## - _**The forth step**_ is to set static IP.
 
 I. Modify the /etc/dhcpcd.conf file with this command.
@@ -59,13 +62,20 @@ It should be known that eth0 is the wired configuration, wlan0 is the wireless c
 
 III. After the restarting, all things will be ok.
 
-## - _**The fifth step**_ is to open SSH and VNC.
+## - _**The fifth step**_ is to open SSH.
 
-I. SSH
+I. 
 
-II. VHC
+## - _**The sixth step**_ is to open VNC.
 
-## - _**The sixth step**_ is to install teamviewer.
+II. 
+
+
+
+
+
+
+## - _**The seventh step**_ is to install teamviewer.
 
 VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
 
@@ -92,6 +102,9 @@ V. Teamviewer should be ok. You can certainly change some settings if you want.
 # **How to realize these function ?**
 
 ## **- NAS**
+
+
+
 
 ## **- Web Server**
 

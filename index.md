@@ -92,11 +92,37 @@ IV. After running the above command, you will notice some errors about a particu
 
 V. Teamviewer should be ok. You can certainly change some settings if you want.
 
-## - _**Optional**_: LCD Screen
+## - _**Optional**_: LCD Display
 
+I. Download LCD display driver.
 
+`wget -O LCD-show.tar.gz http://www.waveshare.net/w/upload/0/00/LCD-show-170703.tar.gz`
 
+II. Install LCD display driver.
 
+2.8 inch: 
+
+```
+sudo tar zxvf LCD-show.tar.gz
+cd LCD-show/
+sudo ./LCD28-show
+```
+
+3.5 inch (B): 
+
+```
+sudo tar zxvf LCD-show.tar.gz
+cd LCD-show/
+sudo ./LCD35B-show
+```
+
+Return to HDMI: 
+
+```
+sudo tar zxvf LCD-show.tar.gz
+cd LCD-show/
+sudo ./LCD-hdmi
+```
 
 ## - _**Optional**_: Netdata Monitor
 

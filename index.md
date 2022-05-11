@@ -31,38 +31,9 @@ I. With display
 
 II. Without display
 
-## - _**The third step**_ is to open SSH and VNC.
+## - _**The second step**_ is to set language.
 
-I. SSH
-
-II. VHC
-
-## - _**The forth step**_ is to install teamviewer.
-
-VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
-
-I. First update to prevent errors.
-
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
-
-II. Download .deb file (a special one for Raspberry Pi).
-
-`wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb`
-
-III. Install with dpkg.
-
-`sudo dpkg -i teamviewer-host_armhf.deb`
-
-IV. After running the above command, you will notice some errors about a particular package not being installed. Use this command to automatically detect missing packages and try to download the best version for the software.
-
-`sudo apt --fix-broken install`
-
-V. Teamviewer should be ok. You can certainly change some settings if you want.
-
-
-## - _**The fifth step**_ is to set static IP.
+## - _**The third step**_ is to set static IP.
 
 I. Modify the /etc/dhcpcd.conf file with this command.
 
@@ -88,18 +59,39 @@ It should be known that eth0 is the wired configuration, wlan0 is the wireless c
 
 III. After the restarting, all things will be ok.
 
+## - _**The forth step**_ is to open SSH and VNC.
 
-## - _**The sixth step**_ is to set language.
+I. SSH
 
+II. VHC
+
+## - _**The fifth step**_ is to install teamviewer.
+
+VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
+
+I. First update to prevent errors.
+
+`sudo apt-get update`
+
+`sudo apt-get upgrade`
+
+II. Download .deb file (a special one for Raspberry Pi).
+
+`wget https://download.teamviewer.com/download/linux/teamviewer-host_armhf.deb`
+
+III. Install with dpkg.
+
+`sudo dpkg -i teamviewer-host_armhf.deb`
+
+IV. After running the above command, you will notice some errors about a particular package not being installed. Use this command to automatically detect missing packages and try to download the best version for the software.
+
+`sudo apt --fix-broken install`
+
+V. Teamviewer should be ok. You can certainly change some settings if you want.
 
 # **How to realize these function ?**
 
 ## **- NAS**
-
-
-
-
-
 
 ## **- Web Server**
 
@@ -121,15 +113,6 @@ Enter the IP address of Raspberry Pi in the address bar of the browser, s Webpag
 
 III. Intranet penetration
 
-
-
-
-
-
-
 ## **- Smart Home**
-
-
-
 
 ## **- Cluster**

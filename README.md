@@ -1,2 +1,2 @@
 # SEBASTIANSTENZEL.github.io
-About Raspberry Pi
+everything about Raspberry Pi

@@ -1,14 +1,12 @@
-# Raspberry Assistant
-
-## Foreword
+# Foreword
 
 This blog is mainly about the introduction, configuration and function about Raspberry Pi for people who are interested in it. Frankly I am also just a beginner. So I am willing to write down my experiences about my project on Raspberry Pi for recording and sharing. I hope that with this blog we can learn together. Please do not hesitate to discuss or point out my errors. If you like it, please press the "Star" button to support me, thank you!
 
-## Something about project
+# Something about project
 
 My project is called "Raspberry Assistant". It consists of 4 Raspberry Pi 4B, so actually it is a multifunctional server. There are 5 functions until now (NAS, Streaming Media, Web server, Smart Home and Cluster). In the following text I will introduce them in detail. Other models of Raspberry Pi have the same principles, but need to pay attention to differences of hardware, such as interface.
 
-## What is Raspberry Pi ?
+# What is Raspberry Pi ?
 
 Raspberry Pi is a tiny single-board computer. The purpose is to promote basic computer science education in schools with low-cost hardware and free software. At present, the performance of Raspberry Pi can only support light (daliy) use and learning. If you need to use it for high-intensity work, such as edge computing, please use a higher-performance server.
 
@@ -18,27 +16,27 @@ Raspberry Pi OS is an officially launched operating system, suitable for all mod
 
 The specific information can be found on the the [official website](https://www.raspberrypi.org/).
 
-## How to run Raspberry Pi ?
+# How to run Raspberry Pi ?
 
 All we need are _**Raspberry Pi**_, _**TF card (MicroSD)**_, _**heat sink**_, _**fan**_, and _**TypeC charging cable and plug**_. Raspberry Pi can centainly run without display. But I think it is more convenient to connect display and raspberry pi with _**Micro HDMI cable**_ when you first configure it. 
 
-### - _**The first step**_ is to write the system into TF card.
+## - _**The first step**_ is to write the system into TF card.
  
 Actually an official software for installing the system is provided, its name is [Pi Imager](https://www.raspberrypi.com/software/). After installing Pi Imager on PC, you can insert the TF card into PC and choose the operating system in it (Raspberry Pi OS (32 - bit) is recommanded). Although the software will format TF card before writting, I recommend formatting the TF card with another software first. I will provide the software later. After you finish it, just press "WRITE" button and wait for the end. Finally insert the TF card into Raspberry Pi.
 
-### - _**The second step**_ is to power up Raspberry Pi.
+## - _**The second step**_ is to power up Raspberry Pi.
 
 I. With display
 
 II. Without display
 
-### - _**The third step**_ is to open SSH and VNC.
+## - _**The third step**_ is to open SSH and VNC.
 
 I. SSH
 
 II. VHC
 
-### - _**The forth step**_ is to install teamviewer.
+## - _**The forth step**_ is to install teamviewer.
 
 VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
 
@@ -63,7 +61,7 @@ IV. After running the above command, you will notice some errors about a particu
 V. Teamviewer should be ok. You can certainly change some settings if you want.
 
 
-### - _**The fifth step**_ is to set static IP.
+## - _**The fifth step**_ is to set static IP.
 
 I. Modify the /etc/dhcpcd.conf file with this command.
 
@@ -90,19 +88,19 @@ It should be known that eth0 is the wired configuration, wlan0 is the wireless c
 III. After the restarting, all things will be ok.
 
 
-### - _**The sixth step**_ is to set language.
+## - _**The sixth step**_ is to set language.
 
 
-## How to realize these function ?
+# How to realize these function ?
 
-### - NAS
-
-
-
+## - NAS
 
 
 
-### - Web Server
+
+
+
+## - Web Server
 
 Apache is No.1 web server software used in the world. It can run on almost all widely used computer platforms and is the most popular web server-side software due to its cross-platform and security being widely used.
 
@@ -128,6 +126,6 @@ III. Intranet penetration
 
 
 
-### - Smart Home
+## - Smart Home
 
-### - Cluster
+## - Cluster

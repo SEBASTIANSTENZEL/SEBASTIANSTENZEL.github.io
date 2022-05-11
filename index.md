@@ -60,22 +60,15 @@ static domain_name_servers=192.168.7.1
 
 It should be known that eth0 is the wired configuration, wlan0 is the wireless configuration, ip_address (/24 is necessary) is the static IP that you want, routers are gateways and static domain_name_servers is DNS.
 
-III. After the restarting, all things will be ok.
+## - _**The fifth step**_ is to open VNC.
 
-## - _**The fifth step**_ is to open SSH.
+I. Enter the following command in the terminal to enter the configuration interface.
 
-I. 
+` sudo raspi-config`
 
-## - _**The sixth step**_ is to open VNC.
+II. Interfacing Options -> VNC -> Yes. The system may prompt you if you want to install the VNC service, enter y and press Enter. Then wait for the system to automatically download and install.
 
-II. 
-
-
-
-
-
-
-## - _**The seventh step**_ is to install teamviewer.
+## - _**The sixth step**_ is to install teamviewer.
 
 VNC can be used to remotely control Raspberry Pi in LAN. But teamviewer allow people to remotely control Raspberry Pi from anywhere, which is more convenient. It can also be used for chatting, transferring files and monitoring device status. It is the best choice for unattended devices.
 
@@ -98,6 +91,22 @@ IV. After running the above command, you will notice some errors about a particu
 `sudo apt --fix-broken install`
 
 V. Teamviewer should be ok. You can certainly change some settings if you want.
+
+## - _**Optional**_: LCD Screen
+
+
+
+
+
+## - _**Optional**_: Netdata Monitor
+
+I. Enter the following command in the terminal to install.
+
+`bash <(curl -Ss https://my-netdata.io/kickstart.sh)`
+
+II. Enter the URL in the address bar of the browser to monitor.
+
+`http://IP address of Raspberry Pi:19999`
 
 # **How to realize these function ?**
 

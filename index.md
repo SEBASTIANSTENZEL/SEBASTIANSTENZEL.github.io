@@ -167,12 +167,18 @@ II. Enter the URL in the address bar of the browser to monitor.
 ## - _**Optional**_: Intranet penetration
 
 For stability and speed, it is more reasonable to use an external service. The specific document is [here](http://doc.uulap.com/docs/nattunnel/nattunnel).
+
 Problem and solution:
 1 - Tunnel configuration for Webpage - Intranet port should be 22
+
 2 - Tunnel configuration for NAS - Intranet port should be 80
+
 3 - Tunnel connection failed - Try to change the line
+
 4 - Client installing on Linux - ARM(32-bit) should be used because of the CPU architecture of the Raspberry Pi 4B(can use the command "getconf LONG_BIT")
+
 5 - Be accessible to NAS - FTP is available for LAN. URL is smb://IP/. It can be logged in with the name and the password of the cloud. SFTP is available for WAN, host server name should be the domain name(without intranet port, but it should be filled in the intranet port name), and log in with the host name and password of Raspberry(not cloud name and password, e.g. "pi" is correct, "share" is wrong)
+
 IMPORTANT - Please do not forget to renew!
 
 # **How to realize these function ?**

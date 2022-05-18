@@ -3,7 +3,7 @@
 
 This blog is mainly about the introduction, configuration and function about Raspberry Pi for people who are interested in it. Frankly I am also just a beginner. So I am willing to write down my experiences about my project on Raspberry Pi for recording and sharing. I hope that with this blog we can learn together. Please do not hesitate to discuss or point out my errors. 
 
-I will update this blog from time to time. I If you like it, please press the "Star" button to support me, thank you!
+I will keep updating this blog. I If you like it, please press the "Star" button to support me, thank you!
 
 # **Something about project**
 

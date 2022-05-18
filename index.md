@@ -1,7 +1,9 @@
 # **Raspberry Assistant**
 # **Foreword**
 
-This blog is mainly about the introduction, configuration and function about Raspberry Pi for people who are interested in it. Frankly I am also just a beginner. So I am willing to write down my experiences about my project on Raspberry Pi for recording and sharing. I hope that with this blog we can learn together. Please do not hesitate to discuss or point out my errors. If you like it, please press the "Star" button to support me, thank you!
+This blog is mainly about the introduction, configuration and function about Raspberry Pi for people who are interested in it. Frankly I am also just a beginner. So I am willing to write down my experiences about my project on Raspberry Pi for recording and sharing. I hope that with this blog we can learn together. Please do not hesitate to discuss or point out my errors. 
+
+I will update this blog from time to time. I If you like it, please press the "Star" button to support me, thank you!
 
 # **Something about project**
 
@@ -195,43 +197,43 @@ In this part, Homekit developed by Apple and Homebridge will be used to build a 
 
 Homebridge is a lightweight NodeJS server built to emulate the iOS HomeKit API. Using this software, you can integrate devices in your home with Homekit. You can also use Homebridge to connect various third-party apps that aren't supported by Homekit, such as Xiaomi.
 
-I. 
+I. The first task is to add the official Node.js repository to the package list. Doing this allows more recent versions of the server software to be installed, rather than the software in the default Raspbian repositories.
 
 `curl -sL https://deb.nodesource.com/setup_12.x | sudo bash -`
 
-II. 
+II. Now install the node.js, Python and GCC compilers on the Raspberry Pi.
 
 `sudo apt install -y nodejs gcc g++ make python`
 
-III. 
+III. Run the following command to verify that nodejs is installed. If the Node.js is installed correctly, the command will return the current version.
 
 `node -v`
 
-IV. 
+IV. Now make sure npm's version is up to date by running the command below.
 
 `sudo npm install -g npm`
 
-V. 
+V. Run the following commands to install Homebridge and the Homebridge Config UI X Plug on the Raspberry Pi.
 
 `sudo npm install -g --unsafe-perm homebridge homebridge-config-ui-x`
 
-VI. 
+VI. To start the Homebridge at boot, run the following command.
 
 `sudo hb-service install --user homebridge`
 
-VII. 
+VII. To enter the web interface, you need to know the IP address of the Raspberry Pi.
 
 `hostname -I`
 
-VIII. 
+VIII. Go to the following website. Devices should be in the same LAN. The default user name and the password are "admin".
 
 `http://[RASPBERRYPIIPADDRESS]:8581`
 
-IX. 
+IX. Run the following command to remove the Homebridge service.
 
 `sudo hb-service uninstall`
 
-X.
+X. Next, Homebridge and Homebridge-config-ui-x packages can be uninstalled with npm.
 
 `sudo npm uninstall -g homebridge homebridge-config-ui-x`
 
